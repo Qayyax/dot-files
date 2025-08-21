@@ -151,11 +151,11 @@ automatically-unhide-macos-hidden-apps = false
 
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
-[mode.service.binding]
+    [mode.service.binding]
     esc = ['reload-config', 'mode main']
 
-    # sticky is not yet supported https://github.com/nikitabobko/AeroSpace/issues/2
-    #s = ['layout sticky tiling', 'mode main']
+# sticky is not yet supported https://github.com/nikitabobko/AeroSpace/issues/2
+#s = ['layout sticky tiling', 'mode main']
 
     alt-ctrl-h = ['join-with left', 'mode main']
     alt-ctrl-j = ['join-with down', 'mode main']
@@ -165,4 +165,7 @@ automatically-unhide-macos-hidden-apps = false
     down = 'volume down'
     up = 'volume up'
     shift-down = ['volume set 0', 'mode main']
- 
+
+    [[on-window-detected]]
+    if.app-id  = "com.apple.Xcode"
+    run = 'move-node-to-workspace C'
