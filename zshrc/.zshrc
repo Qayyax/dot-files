@@ -63,3 +63,7 @@ alias vim="nvim"
 alias v="nvim"
 alias lg="lazygit"
 alias cl="clear"
+
+# Load local secrets (not tracked in git)
+[ -f "$HOME/.figma_token" ] && source "$HOME/.figma_token"
+
