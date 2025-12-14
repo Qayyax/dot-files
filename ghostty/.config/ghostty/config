@@ -10,7 +10,7 @@ selection-background = "#3b275f"
 selection-foreground = "#f0e7ff"
  # minimum-contrast = 3 
 
-font-size = 13
+font-size = 16
 font-family = ""
 font-family = "Maple Mono NF"
 font-family-italic = "Maple Mono NF Italic"
@@ -24,5 +24,6 @@ keybind = cmd+r=reload_config
 
 title = ""
 
-macos-titlebar-style = hidden
+# macos-titlebar-style = hidden
+window-decoration = none
 copy-on-select = true
