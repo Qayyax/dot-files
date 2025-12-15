@@ -64,6 +64,8 @@ alias v="nvim"
 alias lg="lazygit"
 alias cl="clear"
 
-# Load local secrets (not tracked in git)
-[ -f "$HOME/.figma_token" ] && source "$HOME/.figma_token"
-
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/qayyax/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
