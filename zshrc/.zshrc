@@ -58,11 +58,18 @@ setopt CORRECT
 
 
 # alias
+alias lg="lazygit"
+alias cl="clear"
+
+# VIM alias
 alias vi="nvim"
 alias vim="nvim"
 alias v="nvim"
-alias lg="lazygit"
-alias cl="clear"
+
+# TMUX alias
+alias tmn="tmux new -A -s"
+alias tmd="tmux kill-session -t"
+alias tml="tmux ls"
 
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/qayyax/.docker/completions $fpath)
