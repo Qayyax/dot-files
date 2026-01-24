@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="robbyrussell"  # Simple and clean theme without `pyenv` dependencies
+ZSH_THEME="robbyrussell"  
 
 # Plugins
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
@@ -18,15 +18,7 @@ export DEFAULT_USER=$USER
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
-# Pyenv configurations
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
 
-# Apache Spark configuration
-export SPARK_HOME="/usr/local/spark"
-export PATH="$SPARK_HOME/bin:$PATH"
 
 # Docker configuration for Apple Silicon
 export DOCKER_BUILDKIT=0
@@ -49,9 +41,6 @@ mkcd() {
 }
 export PATH=$PATH:$HOME/go/bin
 
-# export for Java
-export JAVA_HOME="/Users/qayyax/jdk/jdk-24.0.1.jdk/Contents/Home"
-export PATH=$JAVA_HOME/bin:$PATH
 
 # opts
 setopt CORRECT
