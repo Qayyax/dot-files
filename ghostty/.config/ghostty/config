@@ -4,8 +4,8 @@ theme = ayu
 
 background = "#000"
 # foreground = "#e0def4"
-cursor-color = "#522081"
-cursor-text = "#fff"
+cursor-color = "#c19ee0"
+cursor-text = "#2c0735"
 selection-background = "#3b275f"
 selection-foreground = "#f0e7ff"
  # minimum-contrast = 3 
