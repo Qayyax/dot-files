@@ -49,6 +49,7 @@ setopt CORRECT
 # alias
 alias lg="lazygit"
 alias cl="clear"
+alias ff="fastfetch"
 
 # VIM alias
 alias vi="nvim"
