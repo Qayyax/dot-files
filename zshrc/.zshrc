@@ -58,9 +58,10 @@ alias v="nvim"
 
 # TMUX alias
 alias tmn="tmux new -A -s"
-alias tmd="tmux kill-session -t"
+alias tmk="tmux kill-session -t"
 alias tml="tmux ls"
 alias tma="tmux attach -t"
+alias tmd="tmux detach"
 
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/qayyax/.docker/completions $fpath)
