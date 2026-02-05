@@ -18,7 +18,7 @@ font-family-bold = "Maple Mono NF Bold"
 font-synthetic-style = true
 
 mouse-hide-while-typing = true
-background-opacity = 0.9
+background-opacity = 0.8
 background-blur = true
 keybind = cmd+r=reload_config
 
