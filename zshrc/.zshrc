@@ -31,6 +31,10 @@ export PATH="$HOME/.config/nvim/bin:/usr/local/bin:$PATH"
 # export bin variables
 export PATH="$HOME/.local/bin:$PATH"
 
+# Homebrew: Python
+export PATH="/opt/homebrew/bin:/opt/homebrew/opt/python/bin:$PATH"
+# export PATH="/opt/homebrew/opt/python/libexec/bin:$PATH"
+
 # Load additional environment management scripts if available
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
@@ -50,6 +54,8 @@ setopt CORRECT
 alias lg="lazygit"
 alias cl="clear"
 alias ff="fastfetch"
+alias python="python3"
+alias pip="pip3"
 
 # VIM alias
 alias vi="nvim"
@@ -62,6 +68,7 @@ alias tmk="tmux kill-session -t"
 alias tml="tmux ls"
 alias tma="tmux attach -t"
 alias tmd="tmux detach"
+
 
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/qayyax/.docker/completions $fpath)
