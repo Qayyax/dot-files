@@ -10,7 +10,7 @@ selection-background = "#3b275f"
 selection-foreground = "#f0e7ff"
 minimum-contrast =  2
 
-font-size = 16
+font-size = 12
 font-family = ""
 font-family = "Maple Mono NF"
 font-family-italic = "Maple Mono NF Italic"
