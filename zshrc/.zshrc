@@ -49,9 +49,9 @@ mkcd() {
 }
 export PATH=$PATH:$HOME/go/bin
 
-# export for Java
-export JAVA_HOME="/Users/qayyax/jdk/jdk-24.0.1.jdk/Contents/Home"
-export PATH=$JAVA_HOME/bin:$PATH
+# # export for Java
+# export JAVA_HOME="/Users/qayyax/jdk/jdk-24.0.1.jdk/Contents/Home"
+# export PATH=$JAVA_HOME/bin:$PATH
 
 # opts
 setopt CORRECT
